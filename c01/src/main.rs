@@ -9,6 +9,8 @@ Analyze sonar measurements.
 The file given by FILENAME contains a series of depth measurements separated by
 newlines. This program will count how many measurements are deeper than their
 predecessor, both individually and in a window of three measurements.
+
+https://adventofcode.com/2021/day/1
 ";
 
 fn usage(argv0: &String) {

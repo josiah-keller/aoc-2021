@@ -13,6 +13,8 @@ and up).
 
 This program follows the course given in the file and calculates the product of
 the final horizontal and depth positions.
+
+https://adventofcode.com/2021/day/2
 ";
 
 fn usage(argv0: &String) {
