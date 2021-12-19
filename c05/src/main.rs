@@ -28,7 +28,7 @@ fn main() {
     let args: Vec<String> = env::args().collect();
     let mut filename = None;
     let mut allow_diag = false;
-    for arg in &args {
+    for arg in args.iter().skip(1) {
         if arg == "-h" {
             usage(&args[0]);
             return;
